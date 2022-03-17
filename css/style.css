@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* common */
+*{    
+  font-family: 'Montserrat', 'Roboto', 'Apple Gothic', sans-serif;  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body{
+  color: #575757 ;  
+  background-color: #fff;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+hr{
+  border: 1px solid #c7c7c7;
+}
+.cf::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+ol{
+  padding-left: 2rem;
+}
+ol li{
+  font-family: 'roboto';
+  font-weight: 300;
+  list-style-type: decimal;
+  line-height: 1.4rem;
+}
+ul{
+  padding-left: 2rem;
+}
+ul li{
+  font-family: 'roboto';
+  font-weight: 300;
+  list-style-type:circle;
+  line-height: 1.4rem;
+}
+li:last-child{
+  padding-bottom: 2rem;
+}
+h1{
+  color: #fff;
+  background-color: #1666C9;
+  margin-bottom: 6rem;
+  padding-top: 10rem;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 30%;
+}
+h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+h3{
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+p{
+  font-family: 'roboto';
+  font-weight: 300;
+  line-height: 2rem;
+}
+.strong{
+  font-weight: 600;
+}
+.info{
+  border: 1px dotted gray;
+  border-radius: 1rem;
+  background-color: #f4f8fd;
+  padding: 1.2rem;
+  margin: 1rem 0;
+}
+img{
+  margin: 1.2rem 0;
+  filter: drop-shadow(3px 3px 8px rgb(197, 197, 197)); 
+}
+.img-m{
+  width: 50%;
+}
+.img-s{
+  width: 20%;
+}
+.icon{
+  vertical-align: middle;
+  padding: 0.4rem;
+  width: 1.6rem;
+}
+.index-3{
+  padding-bottom: 10rem;
+}
+
+/* top icon */
+.top-icon{
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+/* header */
+.guide{
+  margin: auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 480px){
+  h1{
+    color: #fff;
+    background-color: #1666C9;
+    margin-bottom: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  h2{
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+  }
+  h3{
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+  }
+  p{
+    font-family: 'roboto';
+    font-weight: 300;
+    line-height: 1.4rem;
+  }
+  .guide{
+    margin: auto;
+    width: 80%;
+  }
+  .img-m{
+    width: 100%;
+  }
+  .img-s{
+    width: 80%;
+  }
+ 
+
+}
+
+/* footer */
+/* footer{
+  position: fixed;
+  bottom:20px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+}
+.bold{
+  font-weight: 700;
+} */
